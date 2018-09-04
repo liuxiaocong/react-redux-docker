@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+
+  app:
+    container_name: react-c-base
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '3500:3500'
+    environment:
+      - NODE_ENV=development

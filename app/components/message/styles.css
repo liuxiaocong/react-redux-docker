@@ -1,0 +1,58 @@
+.messageMask {
+  position: fixed;
+  top: 4rem;
+  z-index: 9999;
+  background: transparent;
+  text-align: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.messageMask .message {
+  pointer-events: auto;
+}
+
+.messageContainer {
+  overflow: hidden;
+}
+
+.message {
+  display: inline-block;
+  background: #5F5F5F;
+  color: #FFF;
+  padding: 1rem 3rem;
+  margin: 1rem;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+}
+
+.messageIcon {
+  margin-right: 1rem;
+}
+
+.messageInfo {
+  background: #1F95D4;
+  box-shadow: 0 2px 8px rgba(28, 117, 188, 0.2);
+}
+
+.messageWarning {
+  background: #fa0;
+  box-shadow: 0 2px 8px rgba(237, 201, 81, 0.2);
+}
+
+.messageError {
+  background: #EB6841;
+  box-shadow: 0 2px 8px rgba(250, 105, 0, 0.2);
+}
+
+.messageSuccess {
+  background: #1fb754;
+  box-shadow: 0 2px 8px rgba(127, 199, 175, 0.2);
+}
+
+.messageLoading {
+  background: #1F95D4;
+  box-shadow: 0 2px 8px rgba(28, 117, 188, 0.2);
+}

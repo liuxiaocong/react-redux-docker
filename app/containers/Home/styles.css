@@ -1,0 +1,9 @@
+.childWrap {
+  height: 800px;
+  border: 1px solid #eee;
+  padding: 20px;
+}
+
+div {
+  margin: 20px;
+}
